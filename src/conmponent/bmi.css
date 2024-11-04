@@ -1,0 +1,28 @@
+body{
+    background-image: url("./background-02.jpg");
+    background-size: cover;
+}
+
+
+.main-container{
+    margin: 100px auto auto auto;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    border: 1px,solid,black;
+    padding-bottom: 35px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  backdrop-filter: blur(1px); /* Frosted glass effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: subtle border */
+}
+
+.input-container{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
